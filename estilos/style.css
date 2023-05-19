@@ -19,7 +19,7 @@ VERMELHO ESCURO #8C1F28
 }
 
 body, html {
-    background-color: #044040;
+    background: linear-gradient(90deg, hsla(240, 2%, 25%, 1) 0%, hsla(60, 22%, 30%, 1) 100%);
     height: 100vh;
     width: 100vw;
 }
@@ -50,9 +50,9 @@ section#login {
 section#login > div#imagem {
     display: block;
     background: #591C21 url(../imagens/pexels-soulful-pizza-15526977.jpg);
-    height: 200px;
+    height: 195px;
     background-size: cover;
-    background-position: right top
+    background-position: center center;
     
 }
 section#login > div#formulario {
@@ -73,7 +73,7 @@ div.campo > i {
 }
 
 div.campo > input {
-    background-color: #d6b6b6d3;
+    background-color: #a772454d;
     font-size: 1em;
     height: 100%;
     border: 0px;
@@ -88,7 +88,7 @@ div.campo > label {
     display: none;
 }
 form > div.campo {
-    background-color: #044040;
+    background-color: #3b4e3a;
     display: block;
     width: 100%;
     height: 40px;
@@ -114,7 +114,7 @@ form > input[type=submit] {
 }
 
 form > input[type=submit]:hover {
-    background-color: #044040;
+    background-color: #3b4e3a;
 }
 form > a.botao {
     display: block;
@@ -130,7 +130,8 @@ form > a.botao {
     border-radius: 8px;
 }
 form >a.botao:hover {
-    background-color: #0440408e;
+    background-color: #591C21;
+    color: white;
 }
 form > a.botao > i {
     font-size: 0.8em;
